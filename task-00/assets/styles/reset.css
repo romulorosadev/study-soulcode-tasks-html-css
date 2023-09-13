@@ -1,0 +1,64 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+details,
+figcaption,
+figure,
+hgroup,
+img {
+  display: block;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+legend,
+span {
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
